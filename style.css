@@ -1,6 +1,6 @@
 /*Specific Font-Family: Inter used for this Assignment 02 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 body {
     margin: 0px;
     padding: 0px;
@@ -11,7 +11,11 @@ body {
     width: 100%;
     
 }
-
+.ham-burger {
+    /* margin-right: 40px;
+    cursor: pointer; */
+    display: none;
+}
 .header .navbar {
     display: flex;
     justify-content: space-between;
@@ -46,10 +50,10 @@ body {
 
 .header .navbar .nav-item a:hover {
     border-radius: 46px;
-background: rgb(230, 83, 60);
-padding: 8px 20px 8px 20px;
-margin: 0px 47px;
-width: 100px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    margin: 0px 47px;
+    width: 100px;
 }
 
 .header .navbar .nav-title {
@@ -82,8 +86,8 @@ width: 100px;
 }
 
 .banner-title span {
-    font-family: monospace;
-    font-weight: 400px;
+    font-family: Playwrite CU;
+    font-weight: 400;
     font-size: 78px;
 }
 
@@ -95,7 +99,6 @@ width: 100px;
     margin: 57px 190px 57px 100px;
     padding: 0px;
     width: 520px;
-    height: 48px;
 }
 
 .join-btn {
@@ -137,6 +140,63 @@ width: 100px;
 .app-btn:hover {
     padding: 20px 45px 20px 45px;
     border: 1px solid forestgreen;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive design for small device */
+@media screen and (max-width: 576px) {
+    .nav-item {
+        display: none;
+    }
+    .ham-burger {
+        display: block;
+        margin: 57px 40px 28px 20px;
+    }
+    .header .navbar .nav-title {
+        margin: 57px 190px 28px 20px;
+        font-size: 36px;
+    }
+    .banner-title {
+        font-size: 36px;
+        margin: 20px 100px 28px 20px;
+        width: 285px;
+    }
+    .banner-title span {
+        font-size: 36px;
+        
+    }
+    .banner-description {
+        margin: 10px 100px 28px 20px;
+        width: 274px;
+    }
+    .join-btn {
+        width: 169px;
+        height: 54px;
+        font-size: 10px;
+        margin: 10px 100px 28px 20px;
+
+    }
+    .app-btn {
+        width: 169px;
+        font-size: 10px;
+        height: 54px;
+        margin: 10px 100px 28px 20px;
+    }
+    .banner-content {
+        flex-direction: column;
+    }
+    .banner-content img {
+        width: 353px;
+        height: 588px;
+    }
 }
 
 
