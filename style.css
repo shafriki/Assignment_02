@@ -1,0 +1,144 @@
+/*Specific Font-Family: Inter used for this Assignment 02 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* header section */
+.header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(0, 0, 0, 0.726) 100%);
+    width: 100%;
+    
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header .navbar .nav-item ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 57px 150px 57px 190px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 8px 20px 8px 20px;
+}
+.header .navbar .nav-item li {
+    list-style: none;
+}
+
+.header .navbar .nav-item a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    margin: 0px 47px;
+    
+}
+
+.header .navbar .nav-item a:hover {
+    border-radius: 46px;
+background: rgb(230, 83, 60);
+padding: 8px 20px 8px 20px;
+margin: 0px 47px;
+width: 100px;
+}
+
+.header .navbar .nav-title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 0px;
+    margin: 57px 190px 28px 100px;
+    color: rgb(230, 83, 60);
+}
+
+
+/* banner section */
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    margin: 28px 190px 28px 100px; 
+    padding: 0px;
+    width: 520px;
+    height: 282px;;
+
+}
+
+.banner-title span {
+    font-family: monospace;
+    font-weight: 400px;
+    font-size: 78px;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 57px 190px 57px 100px;
+    padding: 0px;
+    width: 520px;
+    height: 48px;
+}
+
+.join-btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    margin-left: 100px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.join-btn:hover {
+    background-color: forestgreen;
+    padding: 20px 45px 20px 45px;
+}
+
+.app-btn {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    margin-left: 14px;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    cursor: pointer;
+}
+
+.app-btn:hover {
+    padding: 20px 45px 20px 45px;
+    border: 1px solid forestgreen;
+}
+
+
+
+
