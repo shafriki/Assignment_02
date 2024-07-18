@@ -5,6 +5,7 @@ body {
     margin: 0px;
     padding: 0px;
     
+    
 }
 /* header section */
 .header {
@@ -213,6 +214,58 @@ body {
     border-radius: 50%;
 }
 
+/* run and extra mile easily */
+.run-content img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+.run-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 41px;
+}
+.run-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    width: 443px;
+    text-align: left;
+    /* margin: 14px 0px; */
+}
+
+.run-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    width: 443px;
+}
+
+.run-btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+    margin: 0px 10px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    width: 190px;
+    text-align: center;
+}
+
+.run {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 100px 230px 100px 230px;
+}
 
 
 
@@ -287,6 +340,27 @@ body {
     .habit-description {
         width: 316px;
         font-size: 14px;
+    }
+    .run-content {
+        flex-direction: column;
+    }
+    .run-title {
+        font-size: 32px;
+        width: 270px;
+    }
+    .run-description {
+        font-size: 14px;
+        width: 330px;
+        text-align: justify;
+        
+    }
+    .run-content img {
+        width: 380px;
+        
+    }
+    .run {
+        margin: 20px;
+        
     }
 }
 
