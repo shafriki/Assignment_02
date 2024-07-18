@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    
 }
 /* header section */
 .header {
@@ -142,6 +143,77 @@ body {
     border: 1px solid forestgreen;
 }
 
+/* main section design */
+.main {
+    background-color: black;
+    
+}
+
+.main .habit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap-top: 60px; */
+    
+    
+}
+
+.habit-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.habit-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px;
+    width: 641px;
+}
+
+.item-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.item-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 231px;
+    margin-top: 0px;
+}
+
+.main .habit-items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.main .habit-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habit-item img {
+    border-radius: 50%;
+}
+
+
 
 
 
@@ -198,6 +270,23 @@ body {
     .banner-content img {
         width: 300px;
         height: 500px;
+    }
+    .main .habit {
+        flex-direction: column;
+    }
+    .main .habit-item {
+        flex-direction: column;
+    }
+    .main .habit-items {
+        flex-direction: column;
+    }
+    .habit-title {
+        font-size: 32px;
+        color: red;
+    }
+    .habit-description {
+        width: 316px;
+        font-size: 14px;
     }
 }
 
