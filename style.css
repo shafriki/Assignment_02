@@ -1,23 +1,26 @@
 /*Specific Font-Family: Inter used for this Assignment 02 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* another font for banner title span tag */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+/* body tag margin and padding */
 body {
     margin: 0px;
-    padding: 0px;
-    
-    
+    padding: 0px;  
 }
+
 /* header section */
 .header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(0, 0, 0, 0.726) 100%);
-    width: 100%;
-    
+    width: 100%;  
 }
+
+/* navbar ham-burger icon */
 .ham-burger {
-    /* margin-right: 40px;
-    cursor: pointer; */
     display: none;
 }
+
 .header .navbar {
     display: flex;
     justify-content: space-between;
@@ -34,6 +37,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 8px 20px 8px 20px;
+    width: 400px;
 }
 .header .navbar .nav-item li {
     list-style: none;
@@ -112,7 +116,6 @@ body {
     margin-left: 100px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
-    padding: 16px 40px 16px 40px;
     border: none;
     cursor: pointer;
 
@@ -120,7 +123,8 @@ body {
 
 .join-btn:hover {
     background-color: forestgreen;
-    padding: 20px 45px 20px 45px;
+    box-shadow: 2px 2px 7px 1px rgb(230, 83, 60);
+
 }
 
 .app-btn {
@@ -135,13 +139,15 @@ body {
     padding: 16px 40px 16px 40px;
     margin-left: 14px;
     border-radius: 42px;
-    padding: 16px 40px 16px 40px;
     cursor: pointer;
 }
+/* .nav-link:active {
+    background-color: red;
+} */
 
 .app-btn:hover {
-    padding: 20px 45px 20px 45px;
     border: 1px solid forestgreen;
+    box-shadow: 2px 2px 7px 1px rgb(230, 83, 60);
 }
 
 /* main section design */
@@ -228,6 +234,7 @@ body {
     gap: 150px;
     padding: 41px;
 }
+
 .run-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -259,24 +266,342 @@ body {
     border: none;
     width: 190px;
     text-align: center;
+    cursor: pointer;
+}
+.run-btn:hover {
+    background-color: forestgreen;
 }
 
 .run {
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin: 100px 230px 100px 230px;
+    margin: 100px 230px 65px 230px;
+    box-shadow: 2px 2px 23px 1px rgb(114, 114, 114);
+}
+/* BMI calculator design */
+.table, th, td {
+    color: white;
+    width: 310px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.bmi-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 640px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    
+}
+.bmi-describe {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 200px 10px 400px;
+}
+.chart-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-chart {
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    /* gap: 150px; */
+}
+
+.input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+input {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px 12px 20px;
+    width: 282.5px;
+    margin: 8px 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+}
+select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px 12px 20px;
+    width: 320.5px;
+    margin: 8px 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    border: none; 
+}
+
+option {
+    background-color: black;
+}
+
+.input button {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 10px 30px 10px;
+    border: none;
+    cursor: pointer;
+}
+.input button:hover {
+    background-color: forestgreen;
+}
+
+/* our team section */
+.members {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 18px;
+    background: rgb(26, 26, 26);
+    margin: 78px 220px 83px 220px;
+}
+.member img {
+    border-radius: 18px;
+    width: 326px;
+    height: 272px;
+    margin: 20px 0px;
+}
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px 0px 14px 0px;
+}
+.team-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Footer Section Design */
+.footer {
+    background-color: rgb(26, 26, 26);
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 0px;
+    margin: 57px 190px 10px 0px;
+    color: rgb(230, 83, 60);
+}
+.footer-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 190px 57px 0px;
+    padding: 0px;
+    width: 300px;
+    text-align: justify;
+}
+
+.Get-Started h4 {
+    color: white;
+    font-family: Inter;
+    Font-Size: 24px;
+}
+.Get-Started li {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    Font-Size: 20px;
+    list-style: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.Get-Start h4 {
+    color: white;
+    font-family: Inter;
+    Font-Size: 24px;
+}
+.Get-Start li {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    Font-Size: 20px;
+    list-style: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+.footer hr {
+    max-width: 60%;
+    align-items: center;  
+}
+.fitness {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    height: 20px;
+    
+}
+
+.workout-vid {
+    position: absolute;
+    top: 280px;
+    right: 25px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    width: 130px;
+    height: 70px;
+
+}
+.workout-vid h3 {
+    color: white;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 13px 0px 0px 13px ;
+}
+.workout-vid p {
+    color: white;
+    font-family: Inter;
+    padding: 2px;
+    align-items: center;
+    margin: 0px 0px 0px 14px ;
+    font-size: 12px;
+}
+.tutorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 600px;
+    right: 290px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    width: 150px;
+    height: 70px;
+}
+.tutorial button {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.tutorial h3 {
+    color: white;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 13px 0px 0px 10px ;
+}
+
+.tutorial p {
+    color: white;
+    font-family: Inter;
+    padding: 2px;
+    align-items: center;
+    margin: 0px 0px 0px 10px ;
+    font-size: 12px;
+}
+.member-title-one {
+    color: whitesmoke;
+    font-weight: 800;
+    position: absolute;
+    top: 2740px;
+    right: 1200px;
+    font-family: Inter;
+}
+.member-title-two {
+    color: whitesmoke;
+    font-weight: 800;
+    position: absolute;
+    top: 2740px;
+    right: 835px;
+    font-family: Inter;
+}
+.member-title-three {
+    color: whitesmoke;
+    font-weight: 800;
+    position: absolute;
+    top: 2740px;
+    right: 480px;
+    font-family: Inter;
+}
+.member-title-four {
+    color: whitesmoke;
+    font-weight: 800;
+    position: absolute;
+    top: 3050px;
+    right: 1200px;
+    font-family: Inter;
+}
+.member-title-five {
+    color: whitesmoke;
+    font-weight: 800;
+    position: absolute;
+    top: 3050px;
+    right: 835px;
+    font-family: Inter;
+}
+.member-title-six {
+    color: whitesmoke;
+    font-family: Inter;
+    font-weight: 800;
+    position: absolute;
+    top: 3050px;
+    right: 480px;
 }
 
 
 
-
-
-
-
-
-
-
-/* responsive design for small device */
+/* responsive design for small devices */
 @media screen and (max-width: 576px) {
     .nav-item {
         display: none;
@@ -291,23 +616,26 @@ body {
     }
     .banner-title {
         font-size: 36px;
-        margin: 20px 100px 28px 20px;
-        width: 285px;
+        margin: 20px 100px 20px 20px;
+        width: 265px;
+        height: 100px;
     }
     .banner-title span {
         font-size: 36px;
         
     }
     .banner-description {
-        margin: 10px 100px 28px 20px;
+        margin: 0px 100px 28px 20px;
         width: 260px;
-        font-size: 13px;
+        text-align: justify;
+        font-size: 14px;
     }
+
     .join-btn {
         width: 160px;
         height: 54px;
         font-size: 9px;
-        margin: 10px 100px 28px 20px;
+        margin: 10px 5px 28px 20px;
 
     }
     .app-btn {
@@ -361,6 +689,100 @@ body {
     .run {
         margin: 20px;
         
+    }
+    .input {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bmi-chart {
+        flex-direction: column;
+    }
+    .bmi-description {
+        width: 280px;
+        margin-right: 0px;
+        padding: 0px;
+        text-align: justify;
+    }
+    .bmi-describe {
+        flex-direction: column;
+        margin: 50px 30px 30px 20px;
+        
+        
+    }
+    .bmi-title {
+        font-size: 24px;
+        margin-bottom: 5px;
+        
+    }
+    
+    .member{
+        flex-direction: column;
+    }
+    .members {
+        grid-template-columns: repeat(1,1fr);
+        margin: 30px 10px;
+    }
+    .member img {
+        border-radius: 18px;
+        width: 396px;
+        height: 302px;
+    }
+    .team-title {
+        font-size: 30px;
+        color: red;
+
+    }
+    .team-description {
+        font-size: 14px;
+    }
+    .footer-content {
+        flex-direction: column;
+        margin: 20px;
+
+    }
+    .footer hr {
+        max-width: 80%;
+        align-items: center;  
+    }
+    .workout-vid {
+        position: absolute;
+        top: 500px;
+        right: 70px;
+    
+    }
+    .tutorial {
+        position: absolute;
+        top: 680px;
+        right: 260px;
+    }
+    .member-title-one {
+        position: absolute;
+        top: 4596px;
+        right: 360px;
+    }
+    .member-title-two {
+        position: absolute;
+        top: 4965px;
+        right: 360px;
+    }
+    .member-title-three {
+        position: absolute;
+        top: 5342px;
+        right: 360px;
+    }
+    .member-title-four {
+        position: absolute;
+        top: 5718px;
+        right: 360px;
+    }
+    .member-title-five {
+        position: absolute;
+        top: 6088px;
+        right: 367px;
+    }
+    .member-title-six {
+        position: absolute;
+        top: 6465px;
+        right: 377px;
     }
 }
 

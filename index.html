@@ -1,4 +1,8 @@
 <!--Assignment 02 Programming Hero-->
+<!-- submitted by shafriki islam shemul
+student of ph -->
+
+<!-- start -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +12,7 @@
 
     <!--icon set for our website-->
     <link rel="shortcut icon" href="icons/icons8-muscle-flexing-96.png" type="image/x-icon">
-
+    <!-- font awesome link for hum-burger icon -->
     <script src="https://kit.fontawesome.com/7043c081d1.js" crossorigin="anonymous"></script>
 
 
@@ -21,23 +25,24 @@
 <body>
     <!--header section start-->
     <header class="header">
+
         <!-- navbar section start -->
          <nav class="navbar">
             <h3 class="nav-title">Fitness</h3>
             <div class="nav-item">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="#Service" class="nav-link">Service</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#About">About</a></li>
                 </ul>
             </div>  
             <div class="ham-burger"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
          </nav>
         <!-- navbar section end -->
 
+
         <!-- banner section start -->
-         <section class="banner">
+         <section class="banner" id="Home">
             <div class="banner-content">
                 <div class="banner-describe">
                 <h1 class="banner-title">Get body in <span>shape</span> & stay healthy</h1><br>
@@ -47,46 +52,60 @@
             </div>
             <div>
                 <img src="images/Images 2.png" alt="">
-                <div class="container">
-                    <h3></h3>
+                <div class="workout-vid">
+                    <h3>500+</h3>
+                    <p>Free Workout Videos</p>
+                </div>
+                <div class="tutorial">
+                    <button></button>
+                    <div class="tutorial-content">
+                    <h3>350+</h3>
+                    <p>Video tutorial</p>
+                </div>
                 </div>
             </div>
             </div>
          </section>
+        <!-- banner section end -->
+
+
     </header>
     <!--header section end-->
 
 
     <!--main section start-->
     <main class="main">
-        <!-- habit section star -->
-        <section class="habit">
+
+
+        <!-- habit section start -->
+        <section class="habit" id="Service">
             <h3 class="habit-title">Change Your Habits</h3>
             <p class="habit-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             <div class="habit-items">
                 <div class="habit-item">
                     <img src="images/image 3.png" alt="">
                     <h3 class="item-title">Movement</h3>
-                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                    <p class="item-description">Movment is good for health. It helps to keep fit your body</p>
                 </div>
                 <div class="habit-item">
                     <img src="images/image 2.png" alt="">
                     <h3 class="item-title">Time</h3>
-                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                    <p class="item-description">For good health you should exercise in perfect time</p>
                 </div>
                 <div class="habit-item">
                     <img src="images/image 4.png" alt="">
                     <h3 class="item-title">Practice</h3>
-                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                    <p class="item-description">Different types of exercise practice keep your body fit</p>
                 </div>
                 <div class="habit-item">
                     <img src="images/image 5.png" alt="">
                     <h3 class="item-title">Weight Loss</h3>
-                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                    <p class="item-description">There are different types of weight loss exercise. you should follow it</p>
                 </div>
             </div>
         </section>
         <!-- habit section end -->
+
 
         <!-- run and extra mile easily section start -->
          <section class="run">
@@ -94,7 +113,7 @@
                 <div class="run-describe">
                 <h3 class="run-title">Run an Extra 
                     Mile Easily</h3>
-                <p class="run-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="run-description">Running is good for health. Everyone should run 10000 steps everyday for good health. Everyday running keep your body and mind perfect.</p>
                 <button class="run-btn">Join Now</button>
             </div>
                 <div>
@@ -102,18 +121,159 @@
             </div>
             </div>
          </section>
-         <!-- run and extra mile easily section start -->
-
-    </main>
-    <!--main section end-->
+         <!-- run and extra mile easily section end -->
 
 
+         <!-- BMI calculator chart section start -->
+          <section class="bmi" id="About">
+            <div class="bmi-describe">
+            <h2 class="bmi-title">BMI Calculator</h2>
+            <p class="bmi-description">Using BMI calculator you can calculate your exact BMI. For calculating BMI you should enter your Height, Weight, Age, Gender etc.</p>
+        </div>
+            <div class="bmi-chart">
+                <div class="chart">
+                    <h4 class="chart-title">BMI Calculator Chart</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th>BMI </th>
+                                <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                
+                        </tbody>
+                    </table>
+                </div>
+                <div class="calculator">
+                    <h4 class="chart-title">Calculate your BMI</h4>
+                    <p class="bmi-description">Here give your Height, Weight, Age Gender for calculate your BMI.</p>
+                    <div class="input">
+                        <input type="text" placeholder="Height/cm">
+                        <input type="text" placeholder="Weight/kg">
+                        <input type="text" placeholder="Age">
+                        <!-- <input type="text" placeholder="Sex"> -->
+                        <select name="Sex">
+                            <option>Sex</option>
+                            <Option>Male</Option>
+                            <Option>Female</Option>
+                        </select>
+                        <!-- <input type="text" placeholder="Select an activity factor"> -->
+                        <select>
+                            <option value="">Select an activity factor</option>
+                            <option value=""></option>
+                        </select>
+                        <br>
+                        <div class="calculate-btn">
+                        <button>Calculate</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- BMI calculator chart section end -->
+
+
+          <!-- our team section start -->
+          <section class="team">
+            <div class="team-content" id="Contact">
+                <h3 class="team-title">Meet Our Team</h3>
+                <p class="team-description">We have six best trainer in our gym. They are Shafriki Islam, Nurullah, Shahriar Efti, Mijan, Soykot and Sojol</p>
+                <div class="members">
+                    <div class="member">
+                        <img src="images/trainer1.png" alt="">
+                        <h4 class="member-title-one">Shafriki</h4>
+                        <p class="member-description"></p>
+                    </div>
+                    <div class="member">
+                        <img src="images/trainer2.png" alt="">
+                        <h4 class="member-title-two">Nurullah</h4>
+                        <p class="member-description"></p>
+                    </div>
+                    <div class="member">
+                        <img src="images/trainer3.png" alt="">
+                        <h4 class="member-title-three">Shahriar</h4>
+                        <p class="member-description"></p>
+                    </div>
+                    <div class="member">
+                        <img src="images/trainer4.png" alt="">
+                        <h4 class="member-title-four">Mijanur</h4>
+                        <p class="member-description"></p>
+                    </div>
+                    <div class="member">
+                        <img src="images/trainer5.png" alt="">
+                        <h4 class="member-title-five">Soykot</h4>
+                        <p class="member-description"></p>
+                    </div>
+                    <div class="member">
+                        <img src="images/trainer6.png" alt="">
+                        <h4 class="member-title-six">Sojol</h4>
+                        <p class="member-description"></p>
+                    </div>
+
+                </div>
+            </div>
+          </section>
+        <!-- our team section start -->
+     
+     
     <!--footer section start-->
-    <footer>
+    <footer class="footer">
+        
+        <div class="footer-content">
+            <div class="footer-describe">
+            <h2 class="footer-title">Fitness</h2>
+            <p class="footer-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+            <div class="Get-Started">
+                
+                <ul>
+                    <li><h4>Get Started</h4></li>
+                    <li>Service</li>
+                    <li>Contact Us</li>
+                     <li>Affiliate  Program</li>
+                     <li>About Us</li>
+                </ul>
+
+            </div>
+            <div class="Get-Start">
+                
+                <ul>
+                    <li><h4>Get Started</h4></li>
+                    <li>Fitness</li>
+                    <li>Platform</li>
+                     <li>Workout Library</li>
+                     <li>App Design</li>
+                </ul>
+
+            </div>
+        </div>
+        <hr color="gray">
+        <p class="fitness">All right reserved @Fitness 2024 || Assignment-02 submitted by Shafriki Islam</p><br>
 
     </footer>
     <!--footer section end-->
 
-    
+
+    </main>
+    <!--main section end--> 
+
+
 </body>
 </html>
+
+<!-- end -->
