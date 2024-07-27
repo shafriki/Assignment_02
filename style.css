@@ -609,7 +609,10 @@ option {
     }
     .ham-burger {
         display: block;
-        margin: 57px 40px 28px 57px;
+        margin: 57px 0px 28px 57px;
+        position: absolute;
+        top: 14px;
+        right: 30px;
     }
     .header .navbar .nav-title {
         margin: 57px 190px 28px 20px;
@@ -679,12 +682,12 @@ option {
     }
     .run-description {
         font-size: 14px;
-        width: 330px;
+        width: 300px;
         text-align: justify;
         
     }
     .run-content img {
-        width: 380px;
+        width: 280px;
         
     }
     .run {
@@ -724,8 +727,8 @@ option {
     }
     .member img {
         border-radius: 18px;
-        width: 396px;
-        height: 302px;
+        width: 330px;
+        height: 280px;
     }
     .team-title {
         font-size: 30px;
@@ -757,37 +760,37 @@ option {
     .tutorial {
         position: absolute;
         top: 743px;
-        right: 260px;
+        right: 210px;
     }
     .member-title-one {
         position: absolute;
-        top: 4709px;
-        right: 360px;
+        top: 4689px;
+        right: 280px;
     }
     .member-title-two {
         position: absolute;
-        top: 5077px;
-        right: 360px;
+        top: 5040px;
+        right: 280px;
     }
     .member-title-three {
         position: absolute;
-        top: 5450px;
-        right: 360px;
+        top: 5390px;
+        right: 280px;
     }
     .member-title-four {
         position: absolute;
-        top: 5820px;
-        right: 360px;
+        top: 5750px;
+        right: 280px;
     }
     .member-title-five {
         position: absolute;
-        top: 6199px;
-        right: 367px;
+        top: 6099px;
+        right: 280px;
     }
     .member-title-six {
         position: absolute;
-        top: 6575px;
-        right: 377px;
+        top: 6450px;
+        right: 287px;
     }
 }
 
