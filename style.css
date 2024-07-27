@@ -754,7 +754,7 @@ option {
     .workout-vid {
         position: absolute;
         top: 630px;
-        right: 77px;
+        right: 33px;
     
     }
     .tutorial {
@@ -764,34 +764,35 @@ option {
     }
     .member-title-one {
         position: absolute;
-        top: 4689px;
+        top: 4705px;
         right: 280px;
     }
     .member-title-two {
         position: absolute;
-        top: 5040px;
-        right: 280px;
+        top: 5055px;
+        right: 277px;
     }
     .member-title-three {
         position: absolute;
-        top: 5390px;
-        right: 280px;
+        top: 5407px;
+        right: 277px;
     }
     .member-title-four {
         position: absolute;
-        top: 5750px;
-        right: 280px;
+        top: 5760px;
+        right: 277px;
     }
     .member-title-five {
         position: absolute;
-        top: 6099px;
-        right: 280px;
+        top: 6112px;
+        right: 277px;
     }
     .member-title-six {
         position: absolute;
-        top: 6450px;
-        right: 287px;
+        top: 6470px;
+        right: 289px;
     }
+    
 }
 
 
