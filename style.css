@@ -38,7 +38,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 8px 20px 8px 20px;
-    width: 435px;
+    width: 410px;
 }
 .header .navbar .nav-item li {
     list-style: none;
@@ -51,7 +51,8 @@ body {
     font-weight: 400px;
     color: rgb(255, 255, 255);
     padding: 4px;
-    margin: 0px 47px;
+    /* margin: 0px 47px; */
+    margin: 0px 35px 0px 0px;
     
 }
 
@@ -59,7 +60,12 @@ body {
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 8px 20px 8px 20px;
-    margin: 0px 47px;
+    width: 100px;
+}
+.bg {
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
     width: 100px;
 }
 
@@ -605,7 +611,7 @@ option {
 }
 .banner-describe {
     border: 1px solid green;
-} */
+}  */
 
 /* responsive design for small devices */
 @media screen and (max-width: 576px) {
