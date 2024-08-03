@@ -606,6 +606,46 @@ option {
     right: 480px;
 }
 
+.tdee {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tdee-calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 41px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 0px 0px 100px 0px;
+    /* box-shadow: 2px 2px 23px 1px rgb(153, 11, 11); */
+}
+
+.img-one {
+    width: 469px;
+    height: 490px;
+}
+.tdee-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tdee-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    width: 671px;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
 /* * {
     border: 1px solid red;
 }
