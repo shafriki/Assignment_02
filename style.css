@@ -706,12 +706,12 @@ option {
 .course-btn:hover {
     background-color: forestgreen;
 }
-/* * {
+ * {
     border: 1px solid red;
 }
-.banner-describe {
+.course {
     border: 1px solid green;
-}   */
+}   
 
 /* responsive design for small devices */
 @media screen and (max-width: 576px) {
@@ -926,9 +926,13 @@ option {
     }
     .course-one {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .course-two {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .course-one img {
         width: 300px;
