@@ -618,11 +618,11 @@ option {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 41px;
+    padding: 21px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin: 0px 0px 100px 0px;
-    /* box-shadow: 2px 2px 23px 1px rgb(153, 11, 11); */
+    box-shadow: 2px 2px 23px 1px rgb(108, 107, 107); 
 }
 
 .img-one {
@@ -651,7 +651,7 @@ option {
 }
 .banner-describe {
     border: 1px solid green;
-}  */
+}   */
 
 /* responsive design for small devices */
 @media screen and (max-width: 576px) {
@@ -846,6 +846,23 @@ option {
         position: absolute;
         top: 6470px;
         right: 289px;
+    }
+    .tdee-calculator {
+        flex-direction: column;
+    }
+    .img-one {
+        width: 269px;
+        height: 290px;
+    }
+    .tdee-calculator {
+        padding: 10px;
+    }
+    .tdee-title {
+        font-size: 30px;
+    }
+    .tdee-description {
+        font-size: 14px;
+        width: 300px;
     }
     
 }
