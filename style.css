@@ -928,11 +928,14 @@ option {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        /* width: 300px; */
+        margin: 0px 0px 20px 0px;
     }
     .course-two {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0px 0px 60px 0px;
     }
     .course-one img {
         width: 300px;
