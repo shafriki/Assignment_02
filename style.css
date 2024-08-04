@@ -666,7 +666,7 @@ option {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 200px 50px 200px;
+    margin: 0px 200px 110px 200px;
     gap: 100px;
 }
 .course-two img {
@@ -923,6 +923,30 @@ option {
     .tdee-description {
         font-size: 14px;
         width: 300px;
+    }
+    .course-one {
+        flex-direction: column;
+    }
+    .course-two {
+        flex-direction: column;
+    }
+    .course-one img {
+        width: 300px;
+        height: 200px;
+    }
+    .course-two img {
+        width: 300px;
+        height: 200px;
+    }
+    .course-title {
+        font-size: 30px;
+        /* margin: 70px 0px 20px 0px; */
+        width: 260px;
+    }
+    .course-description {
+        font-size: 13px;
+        /* margin: 0px 30px 20px 30px; */
+        width: 260px;
     }
     
 }
